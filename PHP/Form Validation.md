@@ -115,7 +115,7 @@ $name = $email = $gender = $comment = $website = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // $_SERVER["REQUEST_METHOD"]를 사용하여 양식이 제출 되었는지 확인
 // REQUEST_METHOD가 POST이면, 양식이 제출된 것이며, 유효성 검사가 필요. 제출하지 않는 경우, 검사를 건너뛰고 빈 양식을 표시.
-  $name = test_input($_["name"]);
+  $name = test_input($_POST["name"]);
   $email = test_input($_POST["email"]);
   $website = test_input($POST["website"]);
   $comment = test_input($POST["comment"]);
