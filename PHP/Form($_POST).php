@@ -30,11 +30,11 @@
   
 // HTTP POST 방식 2
   
-  <form action="form.php" method="post">
+  <form action="Welcome_post.php" method="post">
     Name: <input type="text" name="name"><br>
     E-mail: <input type="text" name="email"><br>
     <input type="submit">
-    // 사용자가 양식을 작성하고 submmit 버튼을 클릭하면 양식 데이터가 처리를 위해 "form.php"라는 PHP 파일로 전송
+    // 사용자가 양식을 작성하고 submmit 버튼을 클릭하면 양식 데이터가 처리를 위해 "Welcome_post.php"라는 PHP 파일로 전송
     // 양식 데이터는 HTTP POST 방식으로 전송 됨
   </form>
   
